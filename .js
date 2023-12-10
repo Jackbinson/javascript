@@ -1,5 +1,5 @@
 alert("Welcome to javascript testing website")
-function myfunction () {
+
 let user = prompt("Tên của bạn là gì ?")
 console.log(user);
 alert("Chào mừng " + user)
@@ -14,4 +14,8 @@ else {
     alert("Giới của bạn là nữ");
     console.log("Tôi là nữ");
 }
+function changecolor() {
+    let color = document.getElementById('colorInputText').value;
+    document.body.style.backgroundColor = color;
+
 }
