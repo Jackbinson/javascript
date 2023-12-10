@@ -1,4 +1,5 @@
 alert("Welcome to javascript testing website")
+function myfunction () {
 let user = prompt("Tên của bạn là gì ?")
 console.log(user);
 alert("Chào mừng " + user)
@@ -12,4 +13,5 @@ if (gender == 'nam') {
 else {
     alert("Giới của bạn là nữ");
     console.log("Tôi là nữ");
+}
 }
